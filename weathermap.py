@@ -1,5 +1,5 @@
 import requests, json
-api_key = "5a167bd09c7e23d14fcaa61b4f8a4cb4"
+api_key = "API"
 #city = input("Введіть назву міста: ")
 city = "Delhi"
 response = requests.get("http://api.openweathermap.org/data/2.5/weather?appid="+api_key+"&q="+city)
